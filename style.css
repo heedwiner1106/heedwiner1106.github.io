@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  background-color: rgb(34, 32, 32);
+}
+
+.container {
+  display: flex;
+  height: 900px;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container__left {
+  background-color: rgb(167, 163, 163);
+  height: 900px;
+  flex-basis: 30%;
+  padding: 30px 20px;
+}
+
+.avt {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: -10px auto 0;
+  background-image: url(image/avt.jpg);
+  background-position: 50%;
+  background-size: 130%;
+}
+
+.avt img {
+  width: 100%;
+  height: 130%;
+}
+
+.left-title {
+  background-color: rgb(129, 123, 123);
+  color: #000;
+  border-radius: 100px;
+  padding: 7px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.list-profiles li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+i {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.left-profile p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.container__right {
+  background-color: #fff;
+  height: 900px;
+  flex-basis: 70%;
+  padding: 0 30px;
+}
+
+.main__name {
+  text-align: center;
+  background-color: rgb(221, 214, 214);
+  padding: 20px;
+  margin: 0 -30px;
+}
+
+.main__name h2 {
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.main__name p {
+  padding-top: 5px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main__name hr {margin: auto;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(167, 163, 163);
+}
+
+.main__title1 {
+  text-align: center;
+  border-radius: 50px;
+  background-color: rgb(167, 163, 163);
+  padding: 10px;
+  margin: 20px 0;
+  letter-spacing: 3px;
+}
+
+
+
+.main__intern .main__title {
+  margin-bottom: 20px;
+}
+
+.main__intern .main__title h3 {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main__intern .main__title .main__title-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__intern .main__title .main__title-body span {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main__poroject {
+  margin-bottom: 10px;
+}
+
+.main__poroject h3 {
+  margin: 5px 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.main__poroject ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+.main__poroject ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
